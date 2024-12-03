@@ -113,7 +113,7 @@ Array.from(document.querySelector(".songList").getElementsByTagName("li")).forEa
 
     //Add an eventlistener for closing hamburger
     document.querySelector(".close").addEventListener("click", () => {
-        document.querySelector(".left").style.left = "-100%";
+        document.querySelector(".left").style.left = "-120%";
     })
 
 } 
